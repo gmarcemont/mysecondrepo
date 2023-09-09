@@ -15,13 +15,13 @@ print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
 calcTotal(thetax,price,myname,mytotal)    
 print()
 
-####  PROBLEM 2  ####
+###  PROBLEM 2  ####
 # print out ONLY the integers in the list below #
 list1 = [1,'two',3.2,'four',5]
 
 int_list = [i for i in list1 if isinstance(i, int)]
 print(int_list)
-
+print()
 
 #### PROBLEM 3 ####
 # install the right library for the code below
